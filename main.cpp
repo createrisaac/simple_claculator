@@ -16,19 +16,19 @@ int main()
     switch (choice)
     {
     case '+' :
-        cout<<" x+y " <<"=" << x+y ;
+        cout<<" x+y " <<"=" << x+y <<endl;
         break;
 
     case '-' :
-        cout<<" x-y " <<"=" << x-y ;
+        cout<<" x-y " <<"=" << x-y <<endl;
         break;
     
     case '*' :
-    cout<<" x*y " <<"=" << x*y ;
+    cout<<" x*y " <<"=" << x*y <<endl;
     break;
 
     case '/' :
-        cout<<" x/y " <<"=" << x/y ;
+        cout<<" x/y " <<"=" << x/y <<endl ;
         break;
 
     
