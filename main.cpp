@@ -3,5 +3,38 @@ using namespace std;
 
 int main()
 {
-    printf("THe world is cruel");
+    int x,y;
+    cout <<"Enter two numbers you want to do arithmatics calculations for." <<endl;
+    cout<<"First number:" <<endl;
+    cin>>x;
+    cout<<"Second number:" <<endl;
+    cin>>y;
+ 
+    char choice;
+    cin>>choice;
+
+    switch (choice)
+    {
+    case '+' :
+        cout<<" x+y " <<"=" << x+y ;
+        break;
+
+    case '-' :
+        cout<<" x-y " <<"=" << x-y ;
+        break;
+    
+    case '*' :
+    cout<<" x*y " <<"=" << x*y ;
+    break;
+
+    case '/' :
+        cout<<" x/y " <<"=" << x/y ;
+        break;
+
+    
+    default:
+    cout<<"Invalid choice!";
+        break;
+    }
+
 }
